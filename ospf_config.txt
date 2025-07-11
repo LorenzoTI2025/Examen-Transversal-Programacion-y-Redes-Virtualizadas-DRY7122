@@ -1,0 +1,10 @@
+ ipv6 ospf 1 area 0
+router ospf 1
+ router-id 1.1.1.1
+ passive-interface default
+ no passive-interface GigabitEthernet1
+ network 192.168.56.0 0.0.0.255 area 0
+ipv6 router ospf 1
+ router-id 2.2.2.2
+ passive-interface default
+ no passive-interface GigabitEthernet1

@@ -1,0 +1,5 @@
+GigabitEthernet1       [up/up]
+    FE80::A00:27FF:FE54:F6D6
+Loopback44             [up/up]
+    FE80::1
+    3001:ABCD:ABCD:4::4

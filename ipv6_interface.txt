@@ -1,0 +1,44 @@
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::A00:27FF:FE54:F6D6 
+  No Virtual link-local address(es):
+  Description: VBox
+  No global unicast address is configured
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::5
+    FF02::1:FF54:F6D6
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  Hosts use stateless autoconfig for addresses.
+Loopback44 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1 
+  No Virtual link-local address(es):
+  Global unicast address(es):
+    3001:ABCD:ABCD:4::4, subnet is 3001:ABCD:ABCD:4::4/128 
+  Joined group address(es):
+    FF02::1
+    FF02::2
+    FF02::1:FF00:1
+    FF02::1:FF00:4
+  MTU is 1514 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is not supported
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND advertised reachable time is 0 (unspecified)
+  ND advertised retransmit interval is 0 (unspecified)
+  ND router advertisements live for 1800 seconds
+  ND advertised default router preference is Medium
+  ND RAs are suppressed (periodic)
+  Hosts use stateless autoconfig for addresses.

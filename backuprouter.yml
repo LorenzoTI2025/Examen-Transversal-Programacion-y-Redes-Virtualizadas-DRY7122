@@ -1,0 +1,15 @@
+---
+- name: Respaldar running-config
+  hosts: csr
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Obtener running-config
+      ios_command:
+        commands: show running-config
+      register: config_output
+
+    - name: Guardar respaldo en archivo local
+      copy:
+        content: "{{ config_output.stdout[0] }}"
+        dest: "./backup_running-config.txt"
